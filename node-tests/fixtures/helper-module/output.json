@@ -1,0 +1,49 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "module",
+      "id": "helpers/foo",
+      "attributes": {
+        "file": "helpers/foo",
+        "functions": [],
+        "helpers": [
+          {
+            "name": "helper",
+            "file": "helpers/foo",
+            "lineNumber": 1,
+            "tags": [],
+            "returns": {
+              "description": "",
+              "properties": []
+            },
+            "params": [
+              {
+                "name": "bar",
+                "description": "a bar string"
+              },
+              {
+                "name": "baz",
+                "description": "a baz number"
+              }
+            ],
+            "isAsync": false,
+            "isGenerator": false,
+            "exportType": "named"
+          }
+        ],
+        "variables": []
+      },
+      "relationships": {
+        "classes": {
+          "data": []
+        },
+        "components": {
+          "data": []
+        }
+      }
+    }
+  ]
+}

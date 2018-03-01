@@ -1,0 +1,178 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "module",
+      "id": "foo",
+      "attributes": {
+        "file": "foo",
+        "functions": [],
+        "helpers": [],
+        "variables": []
+      },
+      "relationships": {
+        "classes": {
+          "data": [
+            {
+              "type": "class",
+              "id": "foo~Foo"
+            }
+          ]
+        },
+        "components": {
+          "data": []
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "class",
+      "id": "foo~Foo",
+      "attributes": {
+        "name": "Foo",
+        "file": "foo",
+        "description": "A foo class",
+        "lineNumber": 1,
+        "access": "public",
+        "tags": [
+          {
+            "name": "anarbitrarytag",
+            "value": ""
+          }
+        ],
+        "isInterface": false,
+        "exportType": "default",
+        "decorators": [],
+        "fields": [
+          {
+            "name": "foo",
+            "file": "foo",
+            "description": "A field named foo",
+            "lineNumber": 9,
+            "tags": [],
+            "type": "number",
+            "isStatic": false,
+            "decorators": [],
+            "isRequired": false,
+            "isImmutable": false,
+            "isReadOnly": false
+          },
+          {
+            "name": "bar",
+            "file": "foo",
+            "description": "A property named bar with a tag",
+            "lineNumber": 17,
+            "tags": [
+              {
+                "name": "taggg",
+                "value": ""
+              }
+            ],
+            "type": "string",
+            "isStatic": false,
+            "decorators": [],
+            "isRequired": false,
+            "isImmutable": false,
+            "isReadOnly": false
+          }
+        ],
+        "methods": [
+          {
+            "name": "corge",
+            "file": "foo",
+            "description": "A method named corge with a tag",
+            "lineNumber": 74,
+            "tags": [
+              {
+                "name": "taggg",
+                "value": ""
+              }
+            ],
+            "returns": {
+              "description": "- the corge return value",
+              "properties": []
+            },
+            "params": [
+              {
+                "name": "foo",
+                "description": "- a foo param"
+              },
+              {
+                "name": "bar",
+                "description": "- a bar param"
+              }
+            ],
+            "isAsync": false,
+            "isGenerator": false,
+            "isStatic": false,
+            "decorators": []
+          }
+        ],
+        "accessors": [
+          {
+            "name": "baz",
+            "file": "foo",
+            "description": "An acccesor named baz",
+            "lineNumber": 26,
+            "tags": [],
+            "type": "any",
+            "isStatic": false,
+            "decorators": [],
+            "hasGetter": true,
+            "hasSetter": false
+          },
+          {
+            "name": "qux",
+            "file": "foo",
+            "description": "An accessor without a setter named qux",
+            "lineNumber": 40,
+            "tags": [],
+            "type": "boolean",
+            "isStatic": false,
+            "decorators": [],
+            "hasGetter": true,
+            "hasSetter": false
+          },
+          {
+            "name": "quux",
+            "file": "foo",
+            "description": "A readonly accessor named quux with a tag",
+            "lineNumber": 51,
+            "tags": [
+              {
+                "name": "taggg",
+                "value": "123"
+              }
+            ],
+            "type": "number",
+            "isStatic": false,
+            "decorators": [],
+            "hasGetter": true,
+            "hasSetter": false
+          },
+          {
+            "name": "quuz",
+            "file": "foo",
+            "description": "A set only accessor named quux",
+            "lineNumber": 63,
+            "tags": [],
+            "type": "any",
+            "isStatic": false,
+            "decorators": [],
+            "hasGetter": false,
+            "hasSetter": false
+          }
+        ],
+        "parentClassId": null
+      },
+      "relationships": {
+        "parentClass": {
+          "data": null
+        }
+      }
+    }
+  ]
+}

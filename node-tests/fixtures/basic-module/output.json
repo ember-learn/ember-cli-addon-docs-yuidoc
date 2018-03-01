@@ -1,0 +1,117 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "module",
+      "id": "foo",
+      "attributes": {
+        "file": "foo",
+        "functions": [
+          {
+            "name": "foo",
+            "file": "foo",
+            "lineNumber": 10,
+            "tags": [],
+            "returns": {
+              "description": "",
+              "properties": []
+            },
+            "params": [
+              {
+                "name": "bar",
+                "description": "a bar string"
+              },
+              {
+                "name": "baz",
+                "description": "a baz number"
+              }
+            ],
+            "isAsync": false,
+            "isGenerator": false,
+            "exportType": "default"
+          },
+          {
+            "name": "bar",
+            "file": "foo",
+            "lineNumber": 21,
+            "tags": [],
+            "returns": {
+              "description": "",
+              "properties": []
+            },
+            "params": [],
+            "isAsync": false,
+            "isGenerator": false,
+            "exportType": "named"
+          }
+        ],
+        "helpers": [],
+        "variables": [
+          {
+            "name": "baz",
+            "file": "foo",
+            "lineNumber": 29,
+            "tags": [],
+            "type": "number",
+            "exportType": "named"
+          },
+          {
+            "name": "qux",
+            "file": "foo",
+            "lineNumber": 35,
+            "tags": [],
+            "type": "string",
+            "exportType": "named"
+          },
+          {
+            "name": "quux",
+            "file": "foo",
+            "lineNumber": 41,
+            "tags": [],
+            "type": "boolean",
+            "exportType": "named"
+          }
+        ]
+      },
+      "relationships": {
+        "classes": {
+          "data": [
+            {
+              "type": "class",
+              "id": "foo~Foo"
+            }
+          ]
+        },
+        "components": {
+          "data": []
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "class",
+      "id": "foo~Foo",
+      "attributes": {
+        "name": "Foo",
+        "file": "foo",
+        "lineNumber": 1,
+        "tags": [],
+        "isInterface": false,
+        "exportType": "named",
+        "decorators": [],
+        "fields": [],
+        "methods": [],
+        "accessors": [],
+        "parentClassId": null
+      },
+      "relationships": {
+        "parentClass": {
+          "data": null
+        }
+      }
+    }
+  ]
+}

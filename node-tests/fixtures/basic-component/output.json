@@ -1,0 +1,169 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "module",
+      "id": "components/foo",
+      "attributes": {
+        "file": "components/foo",
+        "functions": [],
+        "helpers": [],
+        "variables": []
+      },
+      "relationships": {
+        "classes": {
+          "data": []
+        },
+        "components": {
+          "data": [
+            {
+              "type": "component",
+              "id": "components/foo~Foo"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "component",
+      "id": "components/foo~Foo",
+      "attributes": {
+        "name": "Foo",
+        "file": "components/foo",
+        "description": "A foo class",
+        "lineNumber": 1,
+        "access": "public",
+        "tags": [],
+        "isInterface": false,
+        "exportType": "default",
+        "decorators": [],
+        "fields": [
+          {
+            "name": "bar",
+            "file": "components/foo",
+            "description": "A property named bar with a tag",
+            "lineNumber": 19,
+            "tags": [
+              {
+                "name": "taggg",
+                "value": ""
+              }
+            ],
+            "type": "string",
+            "defaultValue": "'123'",
+            "isStatic": false,
+            "decorators": [],
+            "isRequired": false,
+            "isImmutable": false,
+            "isReadOnly": false
+          }
+        ],
+        "methods": [
+          {
+            "name": "corge",
+            "file": "components/foo",
+            "description": "A method named corge with a tag",
+            "lineNumber": 43,
+            "tags": [
+              {
+                "name": "taggg",
+                "value": ""
+              }
+            ],
+            "returns": {
+              "description": "- the corge return value",
+              "properties": []
+            },
+            "params": [
+              {
+                "name": "foo",
+                "description": "- a foo param"
+              },
+              {
+                "name": "bar",
+                "description": "- a bar param"
+              }
+            ],
+            "isAsync": false,
+            "isGenerator": false,
+            "isStatic": false,
+            "decorators": []
+          },
+          {
+            "name": "qux",
+            "file": "components/foo",
+            "description": "An action named qux",
+            "lineNumber": 56,
+            "tags": [
+              {
+                "name": "action",
+                "value": ""
+              }
+            ],
+            "returns": null,
+            "params": [
+              {
+                "name": "foo",
+                "description": "- a foo object"
+              }
+            ],
+            "isAsync": false,
+            "isGenerator": false,
+            "isStatic": false,
+            "decorators": []
+          }
+        ],
+        "accessors": [
+          {
+            "name": "baz",
+            "file": "components/foo",
+            "description": "An acccesor named baz",
+            "lineNumber": 29,
+            "tags": [],
+            "type": "any",
+            "isStatic": false,
+            "decorators": [],
+            "hasGetter": true,
+            "hasSetter": true
+          }
+        ],
+        "parentClassId": null,
+        "arguments": [
+          {
+            "name": "foo",
+            "file": "components/foo",
+            "description": "An argument named foo",
+            "lineNumber": 10,
+            "tags": [],
+            "type": "number",
+            "defaultValue": "123",
+            "isStatic": false,
+            "decorators": [],
+            "isRequired": false,
+            "isImmutable": false,
+            "isReadOnly": false
+          }
+        ],
+        "yields": [
+          {
+            "name": "bar",
+            "description": ""
+          },
+          {
+            "name": "bar.baz",
+            "description": ""
+          }
+        ]
+      },
+      "relationships": {
+        "parentClass": {
+          "data": null
+        }
+      }
+    }
+  ]
+}
