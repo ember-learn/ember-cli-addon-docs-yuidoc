@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module'
@@ -26,7 +27,7 @@ module.exports = {
         'config/**/*.js',
         'lib/**/*.js',
         'tests/dummy/config/**/*.js',
-        'node-tests/**/*.js'
+        'node-tests/*.js'
       ],
       excludedFiles: [
         'app/**',

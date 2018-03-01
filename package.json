@@ -17,7 +17,7 @@
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
-    "test": "ember try:each"
+    "test": "mocha node-tests"
   },
   "dependencies": {
     "broccoli-caching-writer": "^3.0.3",
@@ -28,6 +28,7 @@
     "yuidocjs": "^0.10.2"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
     "broccoli-asset-rev": "^2.4.5",
     "chai": "^4.1.2",
     "ember-ajax": "^3.0.0",
