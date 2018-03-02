@@ -12,19 +12,22 @@
           {
             "name": "foo",
             "file": "foo",
-            "lineNumber": 10,
+            "lineNumber": 11,
             "tags": [],
             "returns": {
+              "type": "string",
               "description": "",
               "properties": []
             },
             "params": [
               {
                 "name": "bar",
+                "type": "string",
                 "description": "a bar string"
               },
               {
                 "name": "baz",
+                "type": "number",
                 "description": "a baz number"
               }
             ],
@@ -35,15 +38,40 @@
           {
             "name": "bar",
             "file": "foo",
-            "lineNumber": 21,
+            "lineNumber": 22,
             "tags": [],
             "returns": {
+              "type": "Array<boolean>",
               "description": "",
               "properties": []
             },
             "params": [],
             "isAsync": false,
             "isGenerator": false,
+            "exportType": "named"
+          },
+          {
+            "name": "quuz",
+            "file": "foo",
+            "description": "An async function named quuz",
+            "lineNumber": 48,
+            "tags": [],
+            "returns": null,
+            "params": [],
+            "isAsync": true,
+            "isGenerator": false,
+            "exportType": "named"
+          },
+          {
+            "name": "corge",
+            "file": "foo",
+            "description": "A generator function named garply",
+            "lineNumber": 58,
+            "tags": [],
+            "returns": null,
+            "params": [],
+            "isAsync": false,
+            "isGenerator": true,
             "exportType": "named"
           }
         ],
@@ -52,7 +80,7 @@
           {
             "name": "baz",
             "file": "foo",
-            "lineNumber": 29,
+            "lineNumber": 30,
             "tags": [],
             "type": "number",
             "exportType": "named"
@@ -60,7 +88,7 @@
           {
             "name": "qux",
             "file": "foo",
-            "lineNumber": 35,
+            "lineNumber": 36,
             "tags": [],
             "type": "string",
             "exportType": "named"
@@ -68,7 +96,7 @@
           {
             "name": "quux",
             "file": "foo",
-            "lineNumber": 41,
+            "lineNumber": 42,
             "tags": [],
             "type": "boolean",
             "exportType": "named"
@@ -99,7 +127,7 @@
         "file": "foo",
         "lineNumber": 1,
         "tags": [],
-        "isInterface": false,
+        "isInterface": true,
         "exportType": "named",
         "decorators": [],
         "fields": [],

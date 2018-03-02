@@ -55,15 +55,12 @@
             "tags": [],
             "type": "number",
             "isStatic": false,
-            "decorators": [],
-            "isRequired": false,
-            "isImmutable": false,
-            "isReadOnly": false
+            "decorators": []
           },
           {
             "name": "bar",
             "file": "foo",
-            "description": "A property named bar with a tag",
+            "description": "A static property named bar with a tag",
             "lineNumber": 17,
             "tags": [
               {
@@ -72,11 +69,8 @@
               }
             ],
             "type": "string",
-            "isStatic": false,
-            "decorators": [],
-            "isRequired": false,
-            "isImmutable": false,
-            "isReadOnly": false
+            "isStatic": true,
+            "decorators": []
           }
         ],
         "methods": [
@@ -84,7 +78,7 @@
             "name": "corge",
             "file": "foo",
             "description": "A method named corge with a tag",
-            "lineNumber": 74,
+            "lineNumber": 86,
             "tags": [
               {
                 "name": "taggg",
@@ -92,21 +86,50 @@
               }
             ],
             "returns": {
+              "type": "string",
               "description": "- the corge return value",
               "properties": []
             },
             "params": [
               {
                 "name": "foo",
+                "type": "string",
                 "description": "- a foo param"
               },
               {
                 "name": "bar",
+                "type": "number",
                 "description": "- a bar param"
               }
             ],
             "isAsync": false,
             "isGenerator": false,
+            "isStatic": false,
+            "decorators": []
+          },
+          {
+            "name": "grault",
+            "file": "foo",
+            "description": "A static async method named grault",
+            "lineNumber": 99,
+            "tags": [],
+            "returns": null,
+            "params": [],
+            "isAsync": true,
+            "isGenerator": false,
+            "isStatic": true,
+            "decorators": []
+          },
+          {
+            "name": "garply",
+            "file": "foo",
+            "description": "A generator method named garply",
+            "lineNumber": 110,
+            "tags": [],
+            "returns": null,
+            "params": [],
+            "isAsync": false,
+            "isGenerator": true,
             "isStatic": false,
             "decorators": []
           }
@@ -115,8 +138,8 @@
           {
             "name": "baz",
             "file": "foo",
-            "description": "An acccesor named baz",
-            "lineNumber": 26,
+            "description": "An accessor named baz",
+            "lineNumber": 27,
             "tags": [],
             "type": "any",
             "isStatic": false,
@@ -125,10 +148,22 @@
             "hasSetter": false
           },
           {
+            "name": "baz",
+            "file": "foo",
+            "description": "A static accessor named baz",
+            "lineNumber": 41,
+            "tags": [],
+            "type": "any",
+            "isStatic": true,
+            "decorators": [],
+            "hasGetter": true,
+            "hasSetter": false
+          },
+          {
             "name": "qux",
             "file": "foo",
             "description": "An accessor without a setter named qux",
-            "lineNumber": 40,
+            "lineNumber": 52,
             "tags": [],
             "type": "boolean",
             "isStatic": false,
@@ -140,11 +175,15 @@
             "name": "quux",
             "file": "foo",
             "description": "A readonly accessor named quux with a tag",
-            "lineNumber": 51,
+            "lineNumber": 63,
             "tags": [
               {
                 "name": "taggg",
                 "value": "123"
+              },
+              {
+                "name": "readonly",
+                "value": ""
               }
             ],
             "type": "number",
@@ -157,7 +196,7 @@
             "name": "quuz",
             "file": "foo",
             "description": "A set only accessor named quux",
-            "lineNumber": 63,
+            "lineNumber": 75,
             "tags": [],
             "type": "any",
             "isStatic": false,

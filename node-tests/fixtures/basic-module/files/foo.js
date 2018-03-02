@@ -1,5 +1,6 @@
 /**
   @class Foo
+  @interface
   @export named
 */
 
@@ -43,3 +44,23 @@ export const qux = '123';
   @type boolean
 */
 export const quux = true;
+
+/**
+  An async function named quuz
+
+  @function quuz
+  @async
+*/
+export async function quuz(foo, bar) {
+  return foo + bar;
+}
+
+/**
+  A generator function named garply
+
+  @function corge
+  @generator
+*/
+export function *corge(foo, bar) {
+  yield foo + bar;
+}

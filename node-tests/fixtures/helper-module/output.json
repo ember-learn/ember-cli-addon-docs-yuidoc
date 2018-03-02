@@ -16,16 +16,19 @@
             "lineNumber": 1,
             "tags": [],
             "returns": {
+              "type": "string",
               "description": "",
               "properties": []
             },
             "params": [
               {
                 "name": "bar",
+                "type": "string",
                 "description": "a bar string"
               },
               {
                 "name": "baz",
+                "type": "number",
                 "description": "a baz number"
               }
             ],

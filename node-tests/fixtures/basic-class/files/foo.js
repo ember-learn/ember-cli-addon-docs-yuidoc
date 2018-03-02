@@ -15,16 +15,17 @@ export default class Foo {
   foo = 123;
 
   /**
-    A property named bar with a tag
+    A static property named bar with a tag
 
     @taggg
+    @static
     @property bar
     @type string
   */
-  bar = '123';
+  static bar = '123';
 
   /**
-    An acccesor named baz
+    An accessor named baz
 
     @accessor baz
     @type any
@@ -35,6 +36,17 @@ export default class Foo {
 
   set baz(val) {
     this._baz = val;
+  }
+
+  /**
+    A static accessor named baz
+
+    @accessor baz
+    @static
+    @type any
+  */
+  static get baz() {
+    return this._bazzz;
   }
 
   /**
@@ -82,5 +94,26 @@ export default class Foo {
   */
   corge(foo, bar) {
     return foo + bar;
+  }
+
+  /**
+    A static async method named grault
+
+    @method grault
+    @static
+    @async
+  */
+  static async grault(foo, bar) {
+    return foo + bar;
+  }
+
+  /**
+    A generator method named garply
+
+    @method garply
+    @generator
+  */
+  *garply(foo, bar) {
+    yield foo + bar;
   }
 }

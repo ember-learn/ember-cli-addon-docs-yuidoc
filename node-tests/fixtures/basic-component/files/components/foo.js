@@ -27,7 +27,7 @@ export default class Foo {
   bar = '123';
 
   /**
-    An acccesor named baz
+    A computed named baz
 
     @computed baz
     @type any

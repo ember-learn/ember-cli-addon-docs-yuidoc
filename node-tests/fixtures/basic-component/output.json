@@ -56,10 +56,7 @@
             "type": "string",
             "defaultValue": "'123'",
             "isStatic": false,
-            "decorators": [],
-            "isRequired": false,
-            "isImmutable": false,
-            "isReadOnly": false
+            "decorators": []
           }
         ],
         "methods": [
@@ -75,16 +72,19 @@
               }
             ],
             "returns": {
+              "type": "string",
               "description": "- the corge return value",
               "properties": []
             },
             "params": [
               {
                 "name": "foo",
+                "type": "string",
                 "description": "- a foo param"
               },
               {
                 "name": "bar",
+                "type": "number",
                 "description": "- a bar param"
               }
             ],
@@ -108,6 +108,7 @@
             "params": [
               {
                 "name": "foo",
+                "type": "object",
                 "description": "- a foo object"
               }
             ],
@@ -121,7 +122,7 @@
           {
             "name": "baz",
             "file": "components/foo",
-            "description": "An acccesor named baz",
+            "description": "A computed named baz",
             "lineNumber": 29,
             "tags": [],
             "type": "any",
@@ -142,19 +143,18 @@
             "type": "number",
             "defaultValue": "123",
             "isStatic": false,
-            "decorators": [],
-            "isRequired": false,
-            "isImmutable": false,
-            "isReadOnly": false
+            "decorators": []
           }
         ],
         "yields": [
           {
             "name": "bar",
+            "type": "Hash",
             "description": ""
           },
           {
             "name": "bar.baz",
+            "type": "Component",
             "description": ""
           }
         ]
