@@ -47,6 +47,7 @@
             "file": "components/foo",
             "description": "A property named bar with a tag",
             "lineNumber": 19,
+            "access": "public",
             "tags": [
               {
                 "name": "taggg",
@@ -65,6 +66,7 @@
             "file": "components/foo",
             "description": "A method named corge with a tag",
             "lineNumber": 43,
+            "access": "public",
             "tags": [
               {
                 "name": "taggg",
@@ -98,6 +100,7 @@
             "file": "components/foo",
             "description": "An action named qux",
             "lineNumber": 56,
+            "access": "public",
             "tags": [
               {
                 "name": "action",
@@ -124,6 +127,7 @@
             "file": "components/foo",
             "description": "A computed named baz",
             "lineNumber": 29,
+            "access": "public",
             "tags": [],
             "type": "any",
             "isStatic": false,
@@ -139,6 +143,7 @@
             "file": "components/foo",
             "description": "An argument named foo",
             "lineNumber": 10,
+            "access": "public",
             "tags": [],
             "type": "number",
             "defaultValue": "123",

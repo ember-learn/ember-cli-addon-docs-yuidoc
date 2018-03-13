@@ -14,6 +14,7 @@
             "name": "helper",
             "file": "helpers/foo",
             "lineNumber": 1,
+            "access": "public",
             "tags": [],
             "returns": {
               "type": "string",
