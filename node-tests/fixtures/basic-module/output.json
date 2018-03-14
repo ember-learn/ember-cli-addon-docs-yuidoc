@@ -13,6 +13,7 @@
             "name": "foo",
             "file": "foo",
             "lineNumber": 11,
+            "access": "public",
             "tags": [],
             "returns": {
               "type": "string",
@@ -39,6 +40,7 @@
             "name": "bar",
             "file": "foo",
             "lineNumber": 22,
+            "access": "public",
             "tags": [],
             "returns": {
               "type": "Array<boolean>",
@@ -55,6 +57,7 @@
             "file": "foo",
             "description": "An async function named quuz",
             "lineNumber": 48,
+            "access": "public",
             "tags": [],
             "returns": null,
             "params": [],
@@ -67,6 +70,7 @@
             "file": "foo",
             "description": "A generator function named garply",
             "lineNumber": 58,
+            "access": "public",
             "tags": [],
             "returns": null,
             "params": [],
@@ -81,6 +85,7 @@
             "name": "baz",
             "file": "foo",
             "lineNumber": 30,
+            "access": "public",
             "tags": [],
             "type": "number",
             "exportType": "named"
@@ -89,6 +94,7 @@
             "name": "qux",
             "file": "foo",
             "lineNumber": 36,
+            "access": "public",
             "tags": [],
             "type": "string",
             "exportType": "named"
@@ -97,6 +103,7 @@
             "name": "quux",
             "file": "foo",
             "lineNumber": 42,
+            "access": "public",
             "tags": [],
             "type": "boolean",
             "exportType": "named"
@@ -126,6 +133,7 @@
         "name": "Foo",
         "file": "foo",
         "lineNumber": 1,
+        "access": "public",
         "tags": [],
         "isInterface": true,
         "exportType": "named",

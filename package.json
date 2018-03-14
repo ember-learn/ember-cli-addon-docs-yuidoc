@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-addon-docs-yuidoc",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "YUIDoc plugin for ember-cli-addon-docs",
   "keywords": [
     "ember-addon",
     "ember-cli-addon-docs-plugin"

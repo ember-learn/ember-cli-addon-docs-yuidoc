@@ -52,6 +52,7 @@
             "file": "foo",
             "description": "A field named foo",
             "lineNumber": 9,
+            "access": "public",
             "tags": [],
             "type": "number",
             "isStatic": false,
@@ -62,6 +63,7 @@
             "file": "foo",
             "description": "A static property named bar with a tag",
             "lineNumber": 17,
+            "access": "public",
             "tags": [
               {
                 "name": "taggg",
@@ -79,6 +81,7 @@
             "file": "foo",
             "description": "A method named corge with a tag",
             "lineNumber": 86,
+            "access": "public",
             "tags": [
               {
                 "name": "taggg",
@@ -112,6 +115,7 @@
             "file": "foo",
             "description": "A static async method named grault",
             "lineNumber": 99,
+            "access": "public",
             "tags": [],
             "returns": null,
             "params": [],
@@ -125,6 +129,7 @@
             "file": "foo",
             "description": "A generator method named garply",
             "lineNumber": 110,
+            "access": "public",
             "tags": [],
             "returns": null,
             "params": [],
@@ -140,6 +145,7 @@
             "file": "foo",
             "description": "An accessor named baz",
             "lineNumber": 27,
+            "access": "public",
             "tags": [],
             "type": "any",
             "isStatic": false,
@@ -152,6 +158,7 @@
             "file": "foo",
             "description": "A static accessor named baz",
             "lineNumber": 41,
+            "access": "public",
             "tags": [],
             "type": "any",
             "isStatic": true,
@@ -164,6 +171,7 @@
             "file": "foo",
             "description": "An accessor without a setter named qux",
             "lineNumber": 52,
+            "access": "public",
             "tags": [],
             "type": "boolean",
             "isStatic": false,
@@ -176,6 +184,7 @@
             "file": "foo",
             "description": "A readonly accessor named quux with a tag",
             "lineNumber": 63,
+            "access": "public",
             "tags": [
               {
                 "name": "taggg",
@@ -197,6 +206,7 @@
             "file": "foo",
             "description": "A set only accessor named quux",
             "lineNumber": 75,
+            "access": "public",
             "tags": [],
             "type": "any",
             "isStatic": false,
