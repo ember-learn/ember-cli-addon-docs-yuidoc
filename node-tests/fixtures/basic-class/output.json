@@ -9,7 +9,6 @@
       "attributes": {
         "file": "foo",
         "functions": [],
-        "helpers": [],
         "variables": []
       },
       "relationships": {

@@ -8,8 +8,7 @@
       "id": "helpers/foo",
       "attributes": {
         "file": "helpers/foo",
-        "functions": [],
-        "helpers": [
+        "functions": [
           {
             "name": "helper",
             "file": "helpers/foo",
