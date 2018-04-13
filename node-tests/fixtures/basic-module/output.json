@@ -79,7 +79,6 @@
             "exportType": "named"
           }
         ],
-        "helpers": [],
         "variables": [
           {
             "name": "baz",

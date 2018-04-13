@@ -9,7 +9,6 @@
       "attributes": {
         "file": "components/foo",
         "functions": [],
-        "helpers": [],
         "variables": []
       },
       "relationships": {
