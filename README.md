@@ -93,11 +93,11 @@ component
 /**
   A foo-bar component. Usage:
 
-  \```hbs
+  ```hbs
     {{#foo-bar baz=123 as |hash|}}
 
     {{/foo-bar}}
-  \```
+  ```
 
   @class FooBarComponent
   @yield {Hash} hash
