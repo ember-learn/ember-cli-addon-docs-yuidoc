@@ -1,0 +1,54 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "module",
+      "id": "foo",
+      "attributes": {
+        "file": "foo",
+        "functions": [],
+        "variables": []
+      },
+      "relationships": {
+        "classes": {
+          "data": [
+            {
+              "type": "class",
+              "id": "foo~Foo"
+            }
+          ]
+        },
+        "components": {
+          "data": []
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "class",
+      "id": "foo~Foo",
+      "attributes": {
+        "name": "Foo",
+        "file": "foo",
+        "lineNumber": 1,
+        "access": "public",
+        "tags": [],
+        "isInterface": true,
+        "exportType": "named",
+        "decorators": [],
+        "fields": [],
+        "methods": [],
+        "accessors": [],
+        "parentClassId": null
+      },
+      "relationships": {
+        "parentClass": {
+          "data": null
+        }
+      }
+    }
+  ]
+}
