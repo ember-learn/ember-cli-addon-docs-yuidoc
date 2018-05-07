@@ -32,7 +32,8 @@ module.exports = {
       excludedFiles: [
         'app/**',
         'addon/**',
-        'tests/dummy/app/**'
+        'tests/dummy/app/**',
+        'node-tests/fixtures/**'
       ],
       parserOptions: {
         sourceType: 'script',
