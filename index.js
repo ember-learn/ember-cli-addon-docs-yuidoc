@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-addon-docs-yuidoc',
+  name: require('./package').name,
 
   createDocsGenerator(inputTree, options) {
     let YuiDocGenerator = require('./lib/broccoli/generator');
