@@ -98,7 +98,7 @@ properties:
 * `@argument` which is meant to represent an argument passed into the
 component
 
-```js
+~~~js
 /**
   A foo-bar component. Usage:
 
@@ -119,7 +119,7 @@ export default Ember.Component.extend({
   */
   baz: -1
 });
-```
+~~~
 
 ### Documenting Modules
 
