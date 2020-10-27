@@ -162,11 +162,6 @@
             "description": ""
           }
         ]
-      },
-      "relationships": {
-        "parentClass": {
-          "data": null
-        }
       }
     }
   ]

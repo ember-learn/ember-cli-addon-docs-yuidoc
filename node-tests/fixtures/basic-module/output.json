@@ -141,11 +141,6 @@
         "methods": [],
         "accessors": [],
         "parentClassId": null
-      },
-      "relationships": {
-        "parentClass": {
-          "data": null
-        }
       }
     }
   ]
