@@ -1,3 +1,5 @@
+[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/ember-cli-addon-docs-yuidoc/workflows/CI/badge.svg)](https://github.com/ember-learn/ember-cli-addon-docs-yuidoc/actions?query=workflow%3ACI)
+
 ember-cli-addon-docs-yuidoc
 ==============================================================================
 
